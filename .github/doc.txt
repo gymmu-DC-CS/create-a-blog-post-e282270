@@ -1,0 +1,6 @@
+Documentation about the procedure:
+
+19.09.2023:
+-created the blog post file on visual studio codes
+-thinking about possible themes to make the blog about
+-learning about copyright (creative commons) 
