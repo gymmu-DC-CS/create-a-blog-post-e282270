@@ -6,6 +6,32 @@
 
 body {
   margin: 0;
-  background-color: lightcyan;
-  font-family: sans-serif;
+  background-color: #DADDF7;
+}
+
+h1{
+  color: #747AA8;
+  font-style: oblique;
+  margin-left: 700px;
+}
+
+h2{
+  color: #1E2661;
+  font-style: oblique;
+}
+
+#art1{
+  width: 40%;
+  margin-left: 50px;
+}
+
+.left{
+  display: block;
+  float: left;
+}
+
+.right{
+  display: block;
+  width: 50%;
+  float: right;
 }
