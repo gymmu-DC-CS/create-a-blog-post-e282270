@@ -46,3 +46,25 @@ h2{
   text-align: center;
 }
 
+/* Code found on website: www.w3schools.com on date 05/10/2023*/
+.topnav{
+  overflow: hidden;
+  background-color: #88AED0;
+}
+
+/* Code found on website: www.w3schools.com on date 05/10/2023*/
+.topnav a {
+  float: left;
+  display: block;
+  color: #333C61;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Code found on website: www.w3schools.com on date 05/10/2023*/
+.topnav a:hover {
+  background-color: #333C61;
+  color: black;
+}
+
