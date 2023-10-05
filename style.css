@@ -18,10 +18,15 @@ p{
 
 h1{
   font-size: 50px;
+  font
   color: #333C61;
   background-color: #78A2CC;
   margin-left: 30px;
   margin-right: 30px;
+  /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
+  background: linear-gradient( 
+            to right, #78A2CC, #88AED0, 
+             #96B9D0, #AECBD6); 
 }
 
 h2{
