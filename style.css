@@ -6,16 +6,29 @@
 
 body {
   margin: 0;
-  background-color: #DADDF7;
+  background-color: #AECBD6;
+}
+
+p{
+  color: #333C61;
+  background-color: #A4C3D2;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 h1{
-  color: #747AA8;
-  font-style: oblique;
-  margin-left: 700px;
+  font-size: 50px;
+  color: #333C61;
+  background-color: #78A2CC;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 h2{
-  color: #1E2661;
+  font-size: 20px;
+  color: #333C61;
   font-style: oblique;
+  background-color: #96B9D0;
+  margin-left: 70px;
+  margin-right: 70px;
 }
