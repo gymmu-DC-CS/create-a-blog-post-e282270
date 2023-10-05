@@ -39,6 +39,10 @@ h2{
                #96B9D0, #AECBD6); 
 }
 
+#logo{
+  width: 100px;
+}
+
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .header {
   background-color: #AECBD6;
@@ -49,7 +53,9 @@ h2{
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .topnav{
   overflow: hidden;
-  background-color: #88AED0;
+  background: linear-gradient( 
+              to right, #AECBD6, #88AED0, 
+               #96B9D0, #AECBD6); 
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
