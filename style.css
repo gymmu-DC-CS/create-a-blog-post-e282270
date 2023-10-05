@@ -11,9 +11,12 @@ body {
 
 p{
   color: #333C61;
-  background-color: #A4C3D2;
   margin-left: 110px;
   margin-right: 110px;
+   /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
+  background: linear-gradient( 
+    to right, #78A2CC, #88AED0, 
+     #96B9D0, #AECBD6); 
 }
 
 h1{
@@ -33,7 +36,10 @@ h2{
   font-size: 20px;
   color: #333C61;
   font-style: oblique;
-  background-color: #96B9D0;
   margin-left: 70px;
   margin-right: 70px;
+   /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
+  background: linear-gradient( 
+    to right, #78A2CC, #88AED0, 
+     #96B9D0, #AECBD6); 
 }
