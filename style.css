@@ -78,6 +78,31 @@ h2{
   color: black;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
 
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+.p.column{
+  color: #333C61;
+  font-size: 18px;
+  background: linear-gradient( 
+              to right, #D7F1FB, #88AED0);
+}
+
+.h2.column{
+  font-size: 20px;
+  color: #333C61;
+  font-style: oblique;
+  background: linear-gradient( 
+              to right, #D7F1FB, #88AED0); 
+}
 
