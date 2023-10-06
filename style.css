@@ -40,7 +40,8 @@ h2{
 }
 
 #logo{
-  width: 100px;
+  width: 60px;
+  float: left;
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
@@ -73,4 +74,5 @@ h2{
   background-color: #333C61;
   color: black;
 }
+
 
