@@ -6,7 +6,9 @@
 
 body {
   margin: 0;
-  background-color: #AECBD6;
+  background-image: linear-gradient(
+                    to right, #D7F1FB, #88AED0, 
+                    #96B9D0, #D7F1FB); 
 }
 
 p{
@@ -14,20 +16,19 @@ p{
   font-size: 18px;
    /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
   background: linear-gradient( 
-              to right, #AECBD6, #88AED0, 
-              #96B9D0, #AECBD6); 
+              to right, #D7F1FB,#88AED0, 
+              #96B9D0, #D7F1FB); 
 }
 
 h1{
   font-size: 50px;
   font
   color: #333C61;
-  background-color: #78A2CC;
   /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
-  background: linear-gradient( 
-              to right, #AECBD6, #88AED0, 
-               #96B9D0, #AECBD6); 
-}
+  background: linear-gradient(
+              to right, #D7F1FB, #88AED0,
+              #96B9D0, #D7F1FB);
+} 
 
 h2{
   font-size: 20px;
@@ -35,8 +36,8 @@ h2{
   font-style: oblique;
    /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
   background: linear-gradient( 
-              to right, #AECBD6, #88AED0, 
-               #96B9D0, #AECBD6); 
+              to right, #D7F1FB, #88AED0, 
+               #96B9D0, #D7F1FB); 
 }
 
 #logo{
@@ -46,7 +47,9 @@ h2{
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .header {
-  background-color: #AECBD6;
+  background: linear-gradient( 
+              to right, #D7F1FB, #88AED0, 
+              #96B9D0, #D7F1FB);
   padding: 20px;
   text-align: center;
 }
@@ -55,8 +58,8 @@ h2{
 .topnav{
   overflow: hidden;
   background: linear-gradient( 
-              to right, #AECBD6, #88AED0, 
-               #96B9D0, #AECBD6); 
+              to right, #D7F1FB, #88AED0, 
+               #96B9D0, #D7F1FB); 
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
@@ -74,5 +77,7 @@ h2{
   background-color: #333C61;
   color: black;
 }
+
+
 
 
