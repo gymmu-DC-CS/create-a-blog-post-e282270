@@ -14,42 +14,35 @@ body {
 p{
   color: #333C61;
   font-size: 18px;
-   /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
-  background: linear-gradient( 
-              to right, #D7F1FB,#88AED0, 
-              #96B9D0, #D7F1FB); 
 }
+
+h4{
+  color: #333C61;
+  font-size: 18px;
+  background-color: #e5f4fa;
+}
+
 
 h1{
   font-size: 50px;
-  font
-  color: #333C61;
-  /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
-  background: linear-gradient(
-              to right, #D7F1FB, #88AED0,
-              #96B9D0, #D7F1FB);
+  font-style: oblique;
+  color: #333C61;  
 } 
 
 h2{
-  font-size: 20px;
+  font-size: 30px;
   color: #333C61;
   font-style: oblique;
-   /*Code found on website: www.geeksforgeeks.org on date: 05/10/2023*/
-  background: linear-gradient( 
-              to right, #D7F1FB, #88AED0, 
-               #96B9D0, #D7F1FB); 
 }
 
 #logo{
-  width: 60px;
+  width: 145px;
   float: left;
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .header {
-  background: linear-gradient( 
-              to right, #D7F1FB, #88AED0, 
-              #96B9D0, #D7F1FB);
+  background-color: #5599FE;
   padding: 20px;
   text-align: center;
 }
@@ -57,9 +50,7 @@ h2{
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .topnav{
   overflow: hidden;
-  background: linear-gradient( 
-              to right, #D7F1FB, #88AED0, 
-               #96B9D0, #D7F1FB); 
+  background-color: #e5f4fa;
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
@@ -78,31 +69,36 @@ h2{
   color: black;
 }
 
+/*Code found on website: www.w3schools.com on date 06/10/2023*/
 .column {
   float: left;
-  width: 50%;
+  width: 47%;
   padding: 15px;
 }
 
-/* Clear floats after the columns */
+/*Code found on website: www.w3schools.com on date 06/10/2023*/
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.p.column{
-  color: #333C61;
-  font-size: 18px;
-  background: linear-gradient( 
-              to right, #D7F1FB, #88AED0);
+/*Code found on website: www.w3schools.com on date 06/10/2023*/
+.column2{
+  float: right;
+  width: 47%;
+  padding: 15px;
 }
 
-.h2.column{
-  font-size: 20px;
+h3{
+  font-size: 40px;
   color: #333C61;
   font-style: oblique;
-  background: linear-gradient( 
-              to right, #D7F1FB, #88AED0); 
+}
+
+h5{
+  font-style: oblique;
+  color: #333C61;
+  float: left;
 }
 
