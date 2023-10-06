@@ -19,7 +19,7 @@ p{
 h4{
   color: #333C61;
   font-size: 18px;
-  background-color: #e5f4fa;
+  background-color: #dbf3fc;
 }
 
 
@@ -50,7 +50,7 @@ h2{
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .topnav{
   overflow: hidden;
-  background-color: #e5f4fa;
+  background-color: #dbf3fc;
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
@@ -100,5 +100,10 @@ h5{
   font-style: oblique;
   color: #333C61;
   float: left;
+}
+
+#lilies{
+  width: 700px;
+  height: 450px;
 }
 
