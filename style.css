@@ -43,20 +43,20 @@ h2 {
   float: left;
 }
 
-/* Code found on website: www.w3schools.com on date 05/10/2023*/
+/* Code found on website: https://www.w3schools.com/howto/howto_css_style_header.asp on date: 05/10/2023*/
 .header {
   background-color: #5599fe;
   padding: 20px;
   text-align: center;
 }
 
-/* Code found on website: www.w3schools.com on date 05/10/2023*/
+/* Code found on website: https://www.w3schools.com/csS/css_navbar_horizontal.asp on date: 05/10/2023*/
 .topnav {
   overflow: hidden;
   background-color: #dbf3fc;
 }
 
-/* Code found on website: www.w3schools.com on date 05/10/2023*/
+/* Code found on website: https://www.w3schools.com/csS/css_navbar_horizontal.aspon on date: 05/10/2023*/
 .topnav a {
   float: left;
   display: block;
@@ -66,27 +66,27 @@ h2 {
   text-decoration: none;
 }
 
-/* Code found on website: www.w3schools.com on date 05/10/2023*/
+/* Code found on website: https://www.w3schools.com/csS/css_navbar_horizontal.asp on date: 05/10/2023*/
 .topnav a:hover {
   background-color: #333c61;
   color: black;
 }
 
-/*Code found on website: www.w3schools.com on date 06/10/2023*/
+/*Code found on website: https://www.w3schools.com/css/css_website_layout.asp on date 06/10/2023*/
 .column {
   float: left;
   width: 47%;
   padding: 15px;
 }
 
-/*Code found on website: www.w3schools.com on date 06/10/2023*/
+/*Code found on website: https://www.w3schools.com/css/css_website_layout.asp on date 06/10/2023*/
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/*Code found on website: www.w3schools.com on date 06/10/2023*/
+/*Code found on website: https://www.w3schools.com/css/css_website_layout.asp on date 06/10/2023*/
 .column2 {
   float: right;
   width: 47%;
@@ -110,8 +110,10 @@ h5 {
   height: 450px;
 }
 
-/*Code found on website: www.w3schools.com on date 06/10/2023*/
-a:link, a:visited {
+/*Code found on website: https://www.w3schools.com/html/html_links_colors.asp on date 06/10/2023*/
+/*This is also a hyperlink, it is just styled as a button*/
+a:link,
+a:visited {
   background-color: #d7f1fb;
   color: #333c61;
   padding: 15px 25px;
@@ -120,27 +122,28 @@ a:link, a:visited {
   display: inline-block;
 }
 
-/*Code found on website: www.w3schools.com on date 06/10/2023*/
-a:hover, a:active {
+/*Code found on website: https://www.w3schools.com/html/html_links_colors.asp on date 06/10/2023*/
+a:hover,
+a:active {
   background-color: #88aed0;
 }
 
-/*Code found on website: www.w3schools.com on date 07/10/2023*/
+/*Code found on website: https://www.w3schools.com/html/html_tables.asp on date 07/10/2023*/
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-/*Code found on website: www.w3schools.com on date 07/10/2023*/
-td, th {
+/*Code found on website: https://www.w3schools.com/html/html_tables.asp on date 07/10/2023*/
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
-/*Code found on website: www.w3schools.com on date 07/10/2023*/
+/*Code found on website: https://www.w3schools.com/html/html_tables.asp on date 07/10/2023*/
 tr:nth-child(even) {
   background-color: #dbf3fc;
 }
-
