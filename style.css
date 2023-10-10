@@ -7,48 +7,51 @@
 body {
   margin: 0;
   background-image: linear-gradient(
-                    to right, #D7F1FB, #88AED0, 
-                    #96B9D0, #D7F1FB); 
+    to right,
+    #d7f1fb,
+    #88aed0,
+    #96b9d0,
+    #d7f1fb
+  );
 }
 
-p{
-  color: #333C61;
+p {
+  color: #333c61;
   font-size: 18px;
 }
 
-h4{
-  color: #333C61;
+h4 {
+  color: #333c61;
   font-size: 18px;
   background-color: #dbf3fc;
 }
 
-
-h1{
+h1 {
   font-size: 50px;
   font-style: oblique;
-  color: #333C61;  
-} 
+  color: #333c61;
+}
 
-h2{
+h2 {
   font-size: 30px;
-  color: #333C61;
+  color: #333c61;
   font-style: oblique;
 }
 
-#logo{
+#logo {
   width: 145px;
   float: left;
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .header {
-  background-color: #5599FE;
+  background-color: #5599fe;
   padding: 20px;
   text-align: center;
 }
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
-.topnav{
+.topnav {
   overflow: hidden;
   background-color: #dbf3fc;
 }
@@ -57,7 +60,7 @@ h2{
 .topnav a {
   float: left;
   display: block;
-  color: #333C61;
+  color: #333c61;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -65,7 +68,7 @@ h2{
 
 /* Code found on website: www.w3schools.com on date 05/10/2023*/
 .topnav a:hover {
-  background-color: #333C61;
+  background-color: #333c61;
   color: black;
 }
 
@@ -84,26 +87,59 @@ h2{
 }
 
 /*Code found on website: www.w3schools.com on date 06/10/2023*/
-.column2{
+.column2 {
   float: right;
   width: 47%;
   padding: 15px;
 }
 
-h3{
+h3 {
   font-size: 40px;
-  color: #333C61;
+  color: #333c61;
   font-style: oblique;
 }
 
-h5{
+h5 {
   font-style: oblique;
-  color: #333C61;
+  color: #333c61;
   float: left;
 }
 
-#lilies{
+#lilies {
   width: 700px;
   height: 450px;
 }
 
+/*Code found on website: www.w3schools.com on date 06/10/2023*/
+a:link, a:visited {
+  background-color: #d7f1fb;
+  color: #333c61;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*Code found on website: www.w3schools.com on date 06/10/2023*/
+a:hover, a:active {
+  background-color: #88aed0;
+}
+
+/*Code found on website: www.w3schools.com on date 07/10/2023*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*Code found on website: www.w3schools.com on date 07/10/2023*/
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/*Code found on website: www.w3schools.com on date 07/10/2023*/
+tr:nth-child(even) {
+  background-color: #dbf3fc;
+}
