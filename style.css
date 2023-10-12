@@ -45,7 +45,7 @@ h2 {
 
 /* Code found on website: https://www.w3schools.com/howto/howto_css_style_header.asp on date: 05/10/2023*/
 .header {
-  background-color: #5599fe;
+  background-color: #bae1ee;
   padding: 20px;
   text-align: center;
 }
@@ -99,17 +99,10 @@ h3 {
   font-style: oblique;
 }
 
-h5 {
-  font-style: oblique;
-  color: #333c61;
-  float: left;
-}
-
-#lilies {
-  width: 700px;
+#lilies{
   height: 450px;
+  width: 700px;
 }
-
 /*Code found on website: https://www.w3schools.com/html/html_links_colors.asp on date 06/10/2023*/
 /*This is also a hyperlink, it is just styled as a button*/
 a:link,
@@ -148,15 +141,15 @@ tr:nth-child(even) {
   background-color: #dbf3fc;
 }
 
-#wheatfield{
+#wheatfield {
   width: 700px;
 }
 
-#vincent{
+#vincent {
   width: 600px;
-  height: 400px;
+  height: 480px;
 }
 
 img {
-  border: 10px solid #096a8d;
+  border: 10px solid #114f65;
 }
