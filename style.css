@@ -147,3 +147,12 @@ th {
 tr:nth-child(even) {
   background-color: #dbf3fc;
 }
+
+#wheatfield{
+  width: 700px;
+}
+
+#vincent{
+  width: 600px;
+  height: 400px;
+}
