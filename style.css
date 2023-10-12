@@ -156,3 +156,7 @@ tr:nth-child(even) {
   width: 600px;
   height: 400px;
 }
+
+img {
+  border: 10px solid #096a8d;
+}
