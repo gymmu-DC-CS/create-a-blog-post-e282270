@@ -99,10 +99,11 @@ h3 {
   font-style: oblique;
 }
 
-#lilies{
+#lilies {
   height: 450px;
   width: 700px;
 }
+
 /*Code found on website: https://www.w3schools.com/html/html_links_colors.asp on date 06/10/2023*/
 /*This is also a hyperlink, it is just styled as a button*/
 a:link,
@@ -146,10 +147,14 @@ tr:nth-child(even) {
 }
 
 #vincent {
-  width: 600px;
+  width: 700px;
   height: 480px;
 }
 
 img {
   border: 10px solid #114f65;
+}
+
+#starry{
+  width: 700px;
 }
