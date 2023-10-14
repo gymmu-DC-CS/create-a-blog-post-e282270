@@ -16,7 +16,7 @@
     <div class="header">
       <header>
         <!--This image is from the creative commons search portal and is listed as being in the public domain.-->
-        <img src="logo.jpg" alt="" id="logo">
+        <img src="logo.jpg" alt="" id="logo" />
         <h1>ART BLOG</h1>
         <h2>From Caroline Spaniol, Class 1E</h2>
       </header>
@@ -30,7 +30,7 @@
       <a href="#">Contact</a>
       <a href="#">About</a>
       <!-- Code found on website: https://www.w3schools.com/howto/howto_css_searchbar.asp on date: 13/10/23-->
-      <input type="text" placeholder="Search..">
+      <input type="text" placeholder="Search.." />
     </div>
 
     <!-- Code found on website: www.w3schools.com on date: 06.10.23 -->
@@ -40,17 +40,24 @@
           <h2>What is art?</h2>
         </div>
         <p>
-          Art is a fascinating means through which humans express their feelings and emotions. It encompasses various forms, such as paintings, drawings, sketches, sculptures, and pottery. Art has been an integral part of our culture throughout history, with evidence of our ancestors creating art in the form of ancient cave paintings. Today, art has evolved into a complex landscape with numerous distinct art styles. This evolution is a testament to the ever-changing nature of art, which remains an essential component of our culture.
+          Art is a fascinating means through which humans express their feelings
+          and emotions. It encompasses various forms, such as paintings,
+          drawings, sketches, sculptures, and pottery. Art has been an integral
+          part of our culture throughout history, with evidence of our ancestors
+          creating art in the form of ancient cave paintings. Today, art has
+          evolved into a complex landscape with numerous distinct art styles.
+          This evolution is a testament to the ever-changing nature of art,
+          which remains an essential component of our culture.
         </p>
 
         <h2>Water Lilies by Claude Monet:</h2>
         <!--This image is from the creative commons search portal and is listed as being in the public domain.-->
-        <img src="monet.lilies.jpg" alt="" id="lilies">
+        <img src="monet.lilies.jpg" alt="" id="lilies" />
 
         <h2>Most expensive paintings ever sold:</h2>
-         <!-- Code found on website: https://www.w3schools.com/Css/css_table.asp on date: 07.10.23 -->
-         <!--Explanation of code: Tables in html contain rows and columns. There are table cells in rows and columns(=<td> and </td>). The 'tr' element means table row=new row-->
-         <table>
+        <!-- Code found on website: https://www.w3schools.com/Css/css_table.asp on date: 07.10.23 -->
+        <!--Explanation of code: Tables in html contain rows and columns. There are table cells in rows and columns(=<td> and </td>). The 'tr' element means table row=new row-->
+        <table>
           <tr>
             <th><p>Name of painting</p></th>
             <th><p>Artist</p></th>
@@ -80,46 +87,54 @@
 
         <h2>Important Motivations When Purchasing Art Worldwide (2022):</h2>
 
-         <!-- Code found on website: https://www.w3schools.com/ai/ai_chartjs.asp on date: 10.10.23 -->
-         <!-- Explanation of the Code: First we have to add a link -> CDN (Content Delivery Network) ->they make the internet faster, more reliable, and safer (The link to the CDN is above). The 'canvas' element is used to create an area on the web page, on which you can "draw" on. The 'style' element is used to style the chart (width/size). The 'xValues' are the different topics of the chart and they have a specific percentage (for example 32.5% from 100%). These are called 'yValues'. The 'barcolors' element is used to make the different parts of the chart appear in different colours.
+        <!-- Code found on website: https://www.w3schools.com/ai/ai_chartjs.asp on date: 10.10.23 -->
+        <!-- Explanation of the Code: First we have to add a link -> CDN (Content Delivery Network) ->they make the internet faster, more reliable, and safer (The link to the CDN is above). The 'canvas' element is used to create an area on the web page, on which you can "draw" on. The 'style' element is used to style the chart (width/size). The 'xValues' are the different topics of the chart and they have a specific percentage (for example 32.5% from 100%). These are called 'yValues'. The 'barcolors' element is used to make the different parts of the chart appear in different colours.
         The 'new Chart' with the id 'myChart' element creates the chart with the type: pie. A pie model is a circular chart and the different topics are cut out of the circle like pieces of a pie.-->
-         <!-- Chart is from website https://startuptalky.com/why-rich-people-invest-in-paintings/-->
-        <canvas id="myChart" style="width:100%;max-width:610px"></canvas>
+        <!-- Chart is from website https://startuptalky.com/why-rich-people-invest-in-paintings/-->
+        <canvas id="myChart" style="width: 100%; max-width: 610px"></canvas>
         <script>
-          const xValues = ["Emotional benefits (passions for art)", "Social aspect (being part of a scene of like-minded people)", "Identity and status (it defindes who I am)", "Value potential (return on your investments)", "Social impact/patronage (supporting artists/arts of organisations)"];
+          const xValues = [
+            "Emotional benefits (passions for art)",
+            "Social aspect (being part of a scene of like-minded people)",
+            "Identity and status (it defindes who I am)",
+            "Value potential (return on your investments)",
+            "Social impact/patronage (supporting artists/arts of organisations)",
+          ];
           const yValues = [32.5, 11.2, 11.5, 21.7, 23.1];
           const barColors = [
             "#3436DB",
             "#70A7FF",
             "#1FC4FE",
             "#72C8F0",
-            "#BDF1FF"
+            "#BDF1FF",
           ];
-          
+
           new Chart("myChart", {
             type: "pie",
             data: {
               labels: xValues,
-              datasets: [{
-                backgroundColor: barColors,
-                data: yValues
-              }]
+              datasets: [
+                {
+                  backgroundColor: barColors,
+                  data: yValues,
+                },
+              ],
             },
             options: {
               title: {
                 display: true,
-              }
-            }
+              },
+            },
           });
-          </script>
+        </script>
 
-          <h2>Portrait of Vincent van Gogh:</h2>
-          <!--This image is from the creative commons search portal and is listed as being in the public domain.-->
-          <img src="vincent.van.gogh.png" alt="" id="vincent">
+        <h2>Portrait of Vincent van Gogh:</h2>
+        <!--This image is from the creative commons search portal and is listed as being in the public domain.-->
+        <img src="vincent.van.gogh.png" alt="" id="vincent" />
 
-          <!--This image is from the creative commons search portal and is listed as being in the public domain.-->
-          <h2>Starry Night by Vincent van Gogh (my favourite painting):</h2>
-          <img src="starry.night.jpg" alt="" id="starry">
+        <!--This image is from the creative commons search portal and is listed as being in the public domain.-->
+        <h2>Starry Night by Vincent van Gogh (my favourite painting):</h2>
+        <img src="starry.night.jpg" alt="" id="starry" />
       </div>
 
       <div class="column2">
@@ -129,39 +144,65 @@
         </h3>
         <h2>List of famous paintings:</h2>
         <ul>
-            <li><p>1. Mona Lisa by Leonardo da Vinci (1503-1505)</p></li>
-            <li><p>2. The Birth of Venus by Sandro Botticelli (1486)</p></li>
-            <li><p>3. The Creation of Adam by Michelangelo Buonarroti (1511)</p></li>
-            <li><p>4. The Last Supper by Leonardo da Vinci (1495—1498)</p></li>
-            <li><p>5. Sacred and Profane Love by Tiziano Vecelli (1515—1516)</p></li>
-            <li><p>6. The Ancient of Days by William Blake (17949)</p></li>
-            <li><p>7. Girl with a Pearl Earring by Johannes Vermeer (1665)</p></li>
-            <li><p>8. The Night Watch by Rembrandt van Rijn (1642)</p></li>
-            <li><p>9. The Sistine Madonna by Raffaello Santi (1512)</p></li>
-            <li><p>10 Liberty Leading the People by Eugene Delacroix (1830)</p></li>
+          <li><p>1. Mona Lisa by Leonardo da Vinci (1503-1505)</p></li>
+          <li><p>2. The Birth of Venus by Sandro Botticelli (1486)</p></li>
+          <li>
+            <p>3. The Creation of Adam by Michelangelo Buonarroti (1511)</p>
+          </li>
+          <li><p>4. The Last Supper by Leonardo da Vinci (1495—1498)</p></li>
+          <li>
+            <p>5. Sacred and Profane Love by Tiziano Vecelli (1515—1516)</p>
+          </li>
+          <li><p>6. The Ancient of Days by William Blake (17949)</p></li>
+          <li>
+            <p>7. Girl with a Pearl Earring by Johannes Vermeer (1665)</p>
+          </li>
+          <li><p>8. The Night Watch by Rembrandt van Rijn (1642)</p></li>
+          <li><p>9. The Sistine Madonna by Raffaello Santi (1512)</p></li>
+          <li>
+            <p>10 Liberty Leading the People by Eugene Delacroix (1830)</p>
+          </li>
         </ul>
 
         <!-- Code found on website: https://www.w3schools.com/html/html_links_colors.asp on date 06/10/23-->
-        <p><a href="https://artistro.com/blogs/news/30-most-famous-artworks-in-history-the-greatest-art-of-all-time">Click here for a full list of paintings!</a></p>
+        <p>
+          <a
+            href="https://artistro.com/blogs/news/30-most-famous-artworks-in-history-the-greatest-art-of-all-time"
+            >Click here for a full list of paintings!</a
+          >
+        </p>
         <h2>Why do people spend so much money for art?</h2>
-        <p> 
-          It's pretty common for very rich people to spend large amounts of money for different artworks. These art-loving people have several reasons to invest their money in expensive paintings. Some of these reasons are tax avoidances, personal preferences, to enrich their environment,to boost their rent and to have a secure place for funds.
+        <p>
+          It's pretty common for very rich people to spend large amounts of
+          money for different artworks. These art-loving people have several
+          reasons to invest their money in expensive paintings. Some of these
+          reasons are tax avoidances, personal preferences, to enrich their
+          environment,to boost their rent and to have a secure place for funds.
         </p>
         <p>
-          Owning valuable art can also provide other benefits to wealthy individuals. Expensive artwork is a sign of prestige and status. Rich people are therefore able to brag about their money and to display it in art gallerys.
+          Owning valuable art can also provide other benefits to wealthy
+          individuals. Expensive artwork is a sign of prestige and status. Rich
+          people are therefore able to brag about their money and to display it
+          in art gallerys.
         </p>
 
         <h2>My opinion about the table on the right:</h2>
         <p>
-          In my opinion, it's crazy and a little bit stupid to spend such large amounts of money on a painting. I believe that no matter how famous a painting is, it's not worth several hundred millon dollars.
+          In my opinion, it's crazy and a little bit stupid to spend such large
+          amounts of money on a painting. I believe that no matter how famous a
+          painting is, it's not worth several hundred millon dollars.
         </p>
         <p>
-          If I had that much money, I'd prefer to spend it on more important things than just a piece of art. One could also donate this money or use it for other charitable purposes. This would bring much more benefit to humanity as a whole than just a painting hanging on a museum wall.
+          If I had that much money, I'd prefer to spend it on more important
+          things than just a piece of art. One could also donate this money or
+          use it for other charitable purposes. This would bring much more
+          benefit to humanity as a whole than just a painting hanging on a
+          museum wall.
         </p>
 
         <h2>Wheatfield with crowds by Vincent van Gogh:</h2>
         <!--This image is from the creative commons search portal and is listed as being in the public domain.-->
-        <div><img src="wheatflield.jpg" alt="" id="wheatfield"></div>
+        <div><img src="wheatflield.jpg" alt="" id="wheatfield" /></div>
 
         <h2>My favourite artist Vincent van Gogh:</h2>
         <ul>
@@ -171,21 +212,32 @@
           <li><p>Death Place: Auvers-sur-Oise, France</p></li>
           <li><p>Cause of death: Gunshot wound</p></li>
           <li><p>Age: 37 years</p></li>
-          <li><p>Years active: 	1881–1890</p></li>
+          <li><p>Years active: 1881–1890</p></li>
           <li><p>Number of paintings: ~2100 paintings</p></li>
         </ul>
 
         <p>
-          I have a really deep appreciation for the various paintings by Vincent van Gogh. It's truly fascinating to see the different types of artworks he created during his relatively short life. He dived into a wide range of painting genres, including landscapes, still lifes, portraits, and self-portraits, all of which are characterized by their use of symbolic, dramatic, and bold colors. I'm particularly drawn to the incredible diversity in his work.
+          I have a really deep appreciation for the various paintings by Vincent
+          van Gogh. It's truly fascinating to see the different types of
+          artworks he created during his relatively short life. He dived into a
+          wide range of painting genres, including landscapes, still lifes,
+          portraits, and self-portraits, all of which are characterized by their
+          use of symbolic, dramatic, and bold colors. I'm particularly drawn to
+          the incredible diversity in his work.
         </p>
         <p>
-          It's truly unfortunate that Vincent van Gogh struggled with mental illnesses throughout his lifetime. His battle with these conditions ultimately led to his death by suicide at the age of only 37. It's disheartening to think that he never had the opportunity to witness his own fame, as he became a famous and celebrated artist after his death.
+          It's truly unfortunate that Vincent van Gogh struggled with mental
+          illnesses throughout his lifetime. His battle with these conditions
+          ultimately led to his death by suicide at the age of only 37. It's
+          disheartening to think that he never had the opportunity to witness
+          his own fame, as he became a famous and celebrated artist after his
+          death.
         </p>
 
         <h2>Starry Night by Vincent van Gogh:</h2>
         <h2>A colour palette:</h2>
 
-         <!-- Code found on website: https://www.w3schools.com/html/html5_svg.asp on date 13/10/23-->
+        <!-- Code found on website: https://www.w3schools.com/html/html5_svg.asp on date 13/10/23-->
         <svg width="100" height="100">
           <circle cx="50" cy="50" r="40" fill="#312556" />
         </svg>
@@ -217,7 +269,7 @@
         <svg width="100" height="100">
           <circle cx="50" cy="50" r="40" fill="#2A4B57" />
         </svg>
-        
+
         <svg width="100" height="100">
           <circle cx="50" cy="50" r="40" fill="#82CEEB" />
         </svg>
@@ -282,8 +334,6 @@
         </svg>
 
         <div class="color-changing-box"></div>
-
-
       </div>
     </div>
 
@@ -293,7 +343,6 @@
         If you have comments or questions about my blog, feel free to contact
         me! Email address: example@gmail.com
       </h4>
-    </footer>  
-  
+    </footer>
   </body>
 </html>
