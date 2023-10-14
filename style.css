@@ -155,16 +155,60 @@ img {
   border: 10px solid #114f65;
 }
 
-#starry{
+#starry {
   width: 700px;
 }
 
 /*Code found on website: https://www.w3schools.com/howto/howto_css_searchbar.asp on date: 13/10/23*/
-.topnav input[type=text] {
+.topnav input[type="text"] {
   float: right;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+}
+
+/*Code found on website: https://chat.openai.com/c/9060e883-fdef-4710-993c-bc68b36a106e on date: 14/10/23*/
+/*AI-Prompt*/
+/*Explanation: First we design a box with the class=.color-changing-box. We can style the width and height and define the length of the animation. In this case the animation duration is 20s and the animation is infinite.
+With the '@keyframes' element we can style the animation. There are 10 different colours and they appear at a specific time in the animation. For example this colour #5684c4 appear when the animation has reached the 20% of the entire animation duration (=4s)*/
+.color-changing-box {
+  width: 640px;
+  height: 50px;
+  background-color: #312556;
+  animation: colorChange 20s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #312556;
+  }
+  10% {
+    background-color: #5684c4;
+  }
+  20% {
+    background-color: #ebbb38;
+  }
+  30% {
+    background-color: #f0e073;
+  }
+  40% {
+    background-color: #83c1a6;
+  }
+  50% {
+    background-color: #2e153f;
+  }
+  60% {
+    background-color: #0f5573;
+  }
+  70% {
+    background-color: #eff8da;
+  }
+  80% {
+    background-color: #46acdd;
+  }
+  90% {
+    background-color: #872936;
+  }
 }
