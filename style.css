@@ -108,7 +108,7 @@ h3 {
 /*This is also a hyperlink, it is just styled as a button*/
 a:link,
 a:visited {
-  background-color: #d7f1fb;
+  background-color: #dbf3fc;
   color: #333c61;
   padding: 15px 25px;
   text-align: center;
@@ -165,7 +165,6 @@ img {
   padding: 6px;
   border: none;
   margin-top: 8px;
-  margin-right: 16px;
   font-size: 17px;
 }
 
@@ -180,6 +179,8 @@ With the '@keyframes' element we can style the animation. There are 10 different
   animation: colorChange 20s infinite;
 }
 
+/*Code found on website: https://chat.openai.com/c/9060e883-fdef-4710-993c-bc68b36a106e on date: 14/10/23*/
+/*AI-Prompt*/
 @keyframes colorChange {
   0% {
     background-color: #312556;
